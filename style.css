@@ -1,0 +1,36 @@
+body{
+    background: #424443;
+}
+
+table.tbl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+input[type = "button"]{
+    color: black;
+    cursor: pointer;
+    background-color: #9fdad5;
+    font-size: 2em;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 60px 10px 0px;
+}
+
+input[type = "text"]{
+    color: black;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    font-size: 2em;
+}
+
+#clearscreen{
+    background: #5cd6cc;
+    border: 1px solid #5cd6cc;
+}
